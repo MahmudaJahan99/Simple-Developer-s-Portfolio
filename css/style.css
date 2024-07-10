@@ -16,6 +16,10 @@ body {
     background: rgba(13, 19, 33, 0.02);
 }
 
+.light-font {
+    opacity: 0.7;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -55,6 +59,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.h2titles {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
 }
 
 /*========== NavBar ==========*/
@@ -99,15 +109,10 @@ nav {
 
 /*========== Article & Section ==========*/
 article {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin: 50px 0;
 }
 
 article>.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 30px;
 }
 
@@ -119,12 +124,6 @@ section {
 /*========== Why WD ==========*/
 .wd-titles {
     text-align: center;
-}
-
-.wd-titles h2 {
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 25px;
 }
 
 .wd-titles p {
@@ -172,25 +171,12 @@ section {
 }
 
 /*====== Inspiration ======*/
-#inspo-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.inspo-section {
     gap: 30px;
 }
 
-#inspo-section h2 {
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 25px;
-}
-
-#inspo-section p {
+.inspo-section {
     line-height: 26px;
-    margin-bottom: 25px;
-    opacity: 0.7;
-
 }
 
 .video-border {
@@ -206,26 +192,15 @@ section {
 
 .video-border iframe {
     border-radius: 16px;
-
 }
 
-/*  */
+/*====== Current Target ======*/
 #current-target {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 25px;
-}
-
-#current-target h2 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
 }
 
 #current-target p {
@@ -310,7 +285,7 @@ section {
     text-decoration-line: underline;
 }
 
-/*  */
+/*====== Next Target ======*/
 #next-target>div {
     display: flex;
     flex-direction: column;
@@ -329,8 +304,6 @@ section {
 }
 
 .target-card h3 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -339,19 +312,11 @@ section {
 }
 
 .target-card p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: left;
     opacity: 0.7;
 }
 
 .target-card a {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
@@ -366,34 +331,20 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px;
+    border-radius: 16px;
+}
+
+.form-title {
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 form .form-contents {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
 }
 
-.form-contents h2 {
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-
 .form-contents p {
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
     opacity: 0.7;
 
 }
