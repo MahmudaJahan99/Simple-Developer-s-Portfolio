@@ -94,6 +94,8 @@ a>.light-btn {
 .banner-contents p {
     margin: 0 50px;
     line-height: 26px;
+    opacity: 0.7;
+
 }
 
 /*========== Article & Section ==========*/
@@ -129,6 +131,8 @@ section {
 .wd-titles p {
     line-height: 26px;
     margin-bottom: 25px;
+    opacity: 0.7;
+
 }
 
 /*====== Card ======*/
@@ -159,6 +163,8 @@ section {
 
 .card .card-desc p {
     line-height: 26px;
+    opacity: 0.7;
+
 }
 
 .card .card-img {
@@ -174,27 +180,133 @@ section {
     justify-content: center;
     gap: 30px;
 }
-#inspo-section h2{
+
+#inspo-section h2 {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-#inspo-section p{
+
+#inspo-section p {
     line-height: 26px;
     margin-bottom: 25px;
+    opacity: 0.7;
+
 }
+
 .video-border {
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 32px;
-width: fit-content;
-margin: auto;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    width: fit-content;
+    margin: auto;
 }
 
 .video-border iframe {
     border-radius: 16px;
- 
+
+}
+
+/*  */
+#current-target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#current-target h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#current-target p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: justify;
+    opacity: 0.7;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#current-target .html-container {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 30%;
+}
+
+#current-target .css-container {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 30%;
+}
+
+#current-target .js-container {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 30%;
+}
+
+#current-target .card-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 24px;
+}
+
+#current-target .card-content h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#current-target .card-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#current-target .learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
