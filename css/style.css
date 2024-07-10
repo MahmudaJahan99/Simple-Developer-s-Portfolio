@@ -178,19 +178,13 @@ section {
 .inspo-section {
     line-height: 26px;
 }
-
-.video-border {
+iframe {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 32px;
-    width: fit-content;
-    margin: auto;
+    padding: 30px;
 }
 
-.video-border iframe {
+iframe {
     border-radius: 16px;
 }
 
