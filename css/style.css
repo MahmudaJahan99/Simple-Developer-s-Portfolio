@@ -165,3 +165,36 @@ section {
     width: 250px;
     height: 215.01px;
 }
+
+/*====== Inspiration ======*/
+#inspo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#inspo-section h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+#inspo-section p{
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.video-border {
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 32px;
+width: fit-content;
+margin: auto;
+}
+
+.video-border iframe {
+    border-radius: 16px;
+ 
+}
